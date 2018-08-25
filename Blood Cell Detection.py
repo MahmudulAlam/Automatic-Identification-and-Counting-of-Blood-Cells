@@ -56,7 +56,7 @@ def blood_cell_count(file_name):
                 index = tree.query(tl)[1]
                 iou_value = iou(tl + br, tl_[index] + br_[index])
                 iou_.append(iou_value)
-            if iou_value > 0:
+            if iou_value > 0.1:
                 continue
             record.append(tl)
             tl_.append(tl)
