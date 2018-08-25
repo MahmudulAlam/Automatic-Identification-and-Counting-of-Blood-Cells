@@ -1,6 +1,14 @@
 # Automatic-Identification-and-Counting-of-Blood-Cells
 ## Dataset
-Download dataset from [here.](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset/blob/master/README.md)
+We have used Complete Blood Cell Count Dataset. Download dataset from [here](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset/blob/master/README.md).
+
+## Requirements
+- [x] TensorFlow-GPU
+- [x] OpenCV
+- [x] Cython
+- [x] Weights : Download the trained weights file for blood cell detection and put the Weights folder in the working directory.
+
+[![Download](https://img.shields.io/badge/download-weights-brightgreen.svg?longCache=true&style=flat)](https://mega.nz/#F!2kVUnKjS!z15tM9WLfga3l1gCNSLNGw)
 
 ## Blood Cell Detection Output
 <p align="center">
