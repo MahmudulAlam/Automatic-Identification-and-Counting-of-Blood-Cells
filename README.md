@@ -1,6 +1,8 @@
 # Automatic-Identification-and-Counting-of-Blood-Cells
 ## Dataset
-We have used Complete Blood Cell Count Dataset. Download dataset from [here](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset/blob/master/README.md).
+We have used [Complete Blood Cell Count Dataset](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset).
+
+[![Download](https://img.shields.io/badge/download-dataset-ff69b4.svg?style=flat)](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset/archive/master.zip)
 
 ## Requirements
 - [x] TensorFlow-GPU
