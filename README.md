@@ -20,10 +20,12 @@ We have used [Complete Blood Cell Count Dataset](https://github.com/MahmudulAlam
 ## Prediction on High-Resolution Image (HRI)
 We have used our model to detect and count blood cells from high-resolution blood cell smear images. These test images are of the size of 3872x2592 way higher than our trained images size of 640x480. So, to match the cell size of our trained images we divide those images into grid cells and run prediction in each grid cell and then combine all the prediction results. 
 
+### Dividing Image into Grid/Patch
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/37298971/45962420-a39ab600-c042-11e8-975f-9b0a077f0e0f.jpg" width="600">
+  <img src="https://user-images.githubusercontent.com/37298971/45962420-a39ab600-c042-11e8-975f-9b0a077f0e0f.jpg" width="800">
 </p>
 
+### Combined Output
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/37298971/45961699-055a2080-c041-11e8-95b0-1c8ac3c8875b.jpg" width="600">
+  <img src="https://user-images.githubusercontent.com/37298971/45961699-055a2080-c041-11e8-95b0-1c8ac3c8875b.jpg" width="800">
 </p>
