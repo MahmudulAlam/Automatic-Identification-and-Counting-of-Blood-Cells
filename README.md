@@ -23,12 +23,13 @@ In some cases, our model predicts the same platelet twice. To solve this problem
 ### Prediction Before Verfication 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/37298971/46260207-b27ede00-c504-11e8-9d00-7d7be151ee5d.jpg" width="400">
-</p
+</p>
 
-### Prediction After Verfication 
+### Prediction After Verfication
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/37298971/46260230-16a1a200-c505-11e8-8065-8b1ef7fbb0fd.jpg" width="400">
-</p
+  <img src="https://user-images.githubusercontent.com/37298971/46260504-a268fd80-c508-11e8-9ef0-5230d00f47a3.jpg" width="400">
+</p>
+
 
 ## Prediction on High-Resolution Image (HRI)
 We have used our model to detect and count blood cells from high-resolution blood cell smear images. These test images are of the size of 3872x2592 way higher than our trained images size of 640x480. So, to match the cell size of our trained images we divide those images into grid cells and run prediction in each grid cell and then combine all the prediction results. 
