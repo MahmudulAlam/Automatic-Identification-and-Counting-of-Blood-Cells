@@ -43,3 +43,6 @@ We have used our model to detect and count blood cells from high-resolution bloo
 <p align="center">
   <img src="https://user-images.githubusercontent.com/37298971/45961699-055a2080-c041-11e8-95b0-1c8ac3c8875b.jpg" width="700">
 </p>
+
+## Paper
+For more detail explanation, please go through the [paper](http://ietdl.org/t/kmgztb).
