@@ -12,6 +12,9 @@ We have used [Complete Blood Cell Count Dataset](https://github.com/MahmudulAlam
 
 [![Download](https://img.shields.io/badge/download-weights-brightgreen.svg?longCache=true&style=flat)](https://mega.nz/#F!2kVUnKjS!z15tM9WLfga3l1gCNSLNGw)
 
+## How to Run the Code
+A step by step guideline of how to run the blood cell detection code in your computer is provided in the [wiki](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/wiki/A-Step-by-Step-Guide-of-How-to-Run-the-Code).
+
 ## Blood Cell Detection Output
 <p align="center">
   <img src="https://user-images.githubusercontent.com/37298971/44617785-17eb0980-a88b-11e8-9018-c84f8be5cefa.png" width="550">
