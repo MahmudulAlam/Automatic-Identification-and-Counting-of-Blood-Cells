@@ -59,4 +59,3 @@ for i in range(0, len(C)):
     image = cv2.putText(image, label, (center[0] - 30, center[1] + 10), font, 1, color, 2)
 
 cv2.imwrite('Output/' + im_name + 'out.jpg', image)
-cv2.waitKey(0)
