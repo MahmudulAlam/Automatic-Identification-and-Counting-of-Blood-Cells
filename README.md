@@ -49,3 +49,6 @@ We have used our model to detect and count blood cells from high-resolution bloo
 
 ## Paper
 For more detail explanation, please go through the [paper](http://ietdl.org/t/kmgztb).
+
+## How to Train on Your Dataset
+A seven step guideline of how to train on your own dataset is provided in this [wiki](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/wiki/How-to-Train-on-Your-Dataset). 
