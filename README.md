@@ -8,7 +8,7 @@ We have used [Complete Blood Cell Count Dataset](https://github.com/MahmudulAlam
 - [x] TensorFlow-GPU
 - [x] OpenCV
 - [x] Cython
-- [x] Weights: Download the trained weights file for blood cell detection and put the Weights folder in the working directory.
+- [x] Weights: Download the trained weights file for blood cell detection and put the ```weights``` folder in the working directory.
 
 [![Download](https://img.shields.io/badge/download-weights-brightgreen.svg?longCache=true&style=flat)](https://mega.nz/#F!2kVUnKjS!z15tM9WLfga3l1gCNSLNGw)
 
@@ -20,8 +20,8 @@ A step by step guideline of how to run the blood cell detection code in your com
   <img src="https://user-images.githubusercontent.com/37298971/44617785-17eb0980-a88b-11e8-9018-c84f8be5cefa.png" width="550">
 </p>
 
-## Impact of KNN and IoU
-In some cases, our model predicts the same platelet twice. To solve this problem we propose k-nearest neighbor (KNN) and intersection over union (IoU) based verification system where we find the nearest platelet of a platelet and calculate their overlap. We are allowing only 10% of overlap between two platelets. If the overlap is more than that then it will be a spurious prediction and we will ignore the prediction.
+## Impact of KNN and IOU
+In some cases, our model predicts the same platelet twice. To solve this problem we propose k-nearest neighbor (KNN) and intersection over union (IOU) based verification system where we find the nearest platelet of a platelet and calculate their overlap. We are allowing only 10% of overlap between two platelets. If the overlap is more than that then it will be a spurious prediction and we will ignore the prediction.
 
 ### Prediction Before Verfication 
 <p align="center">
