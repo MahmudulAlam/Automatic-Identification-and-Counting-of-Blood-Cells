@@ -11,7 +11,7 @@ class argHandler(dict):
         self.define('config', './cfg/', 'path to .cfg directory')
         self.define('dataset', '../pascal/VOCdevkit/IMG/', 'path to dataset directory')
         self.define('labels', 'labels.txt', 'path to labels file')
-        self.define('backup', './Weights/', 'path to backup folder')
+        self.define('backup', './weights/', 'path to backup folder')
         self.define('summary', '', 'path to TensorBoard summaries directory')
         self.define('annotation', '../pascal/VOCdevkit/ANN/', 'path to annotation directory')
         self.define('threshold', -0.1, 'detection threshold')

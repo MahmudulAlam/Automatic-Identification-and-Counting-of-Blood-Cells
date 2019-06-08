@@ -13,7 +13,7 @@ R = []  # Radius
 L = []  # Label
 
 im_name = 'HRI001'
-image = cv2.imread('Images/' + im_name + '.jpg')
+image = cv2.imread('IMAGES/' + im_name + '.jpg')
 
 for h in range(0, 2592, 890):
     for w in range(0, 3872, 1290):
@@ -58,4 +58,4 @@ for i in range(0, len(C)):
     font = cv2.FONT_HERSHEY_COMPLEX
     image = cv2.putText(image, label, (center[0] - 30, center[1] + 10), font, 1, color, 2)
 
-cv2.imwrite('Output/' + im_name + 'out.jpg', image)
+cv2.imwrite('OUTPUT/' + im_name + 'out.jpg', image)
