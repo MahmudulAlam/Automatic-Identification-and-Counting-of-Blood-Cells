@@ -32,7 +32,7 @@ In some cases, our model predicts the same platelet twice. To solve this problem
 </p>
 
 ## Prediction on High-Resolution Image (HRI)
-We have used our model to detect and count blood cells from high-resolution blood cell smear images. These test images are of the size of ```3872 x 2592``` way higher than our trained images size of ```640 x 480```. So, to match the cell size of our trained images we divide those images into grid cells and run prediction in each grid cell and then combine all the prediction results. 
+We have used our model to detect and count blood cells from high-resolution blood cell smear images. These test images are of the size of ```3872 x 2592``` way higher than the size of our trained images of ```640 x 480```. So, to match the cell size of our trained images we divide those images into grid cells and run prediction in each grid cell and then combine all the prediction results. 
 
 ### Dividing Image into Grid/Patch
 <p align="center">
@@ -60,4 +60,4 @@ For more detail explanation, please go through the [paper](http://ietdl.org/t/km
 ```
 
 ## How to Train on Your Dataset
-A seven step guideline of how to train on your own dataset is provided in this [wiki](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/wiki/How-to-Train-on-Your-Dataset). 
+A seven-step guideline of how to train on your own dataset is provided in this [wiki](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/wiki/How-to-Train-on-Your-Dataset). 
