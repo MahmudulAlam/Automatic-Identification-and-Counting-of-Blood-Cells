@@ -58,7 +58,10 @@ We have used our model to detect and count blood cells from high-resolution bloo
 </p>
 
 ## Paper
-For more detail explanation, please go through the [paper](http://ietdl.org/t/kmgztb). Cite this paper as:
+[![Paper](https://img.shields.io/badge/paper-IeeeXplore-blue.svg?longCache=true&style=flat)][1]
+[![Paper](https://img.shields.io/badge/paper-IETDigiLib-lightgray.svg?longCache=true&style=flat)][2]
+
+For more detail explanation, please go through the pdf of the [```paper```][3]. Cite this paper as:
 ```
 @article{alam2019machine,
   title={Machine learning approach of automatic identification and counting of blood cells},
@@ -74,3 +77,7 @@ For more detail explanation, please go through the [paper](http://ietdl.org/t/km
 
 ## How to Train on Your Dataset
 A seven-step guideline of how to train on your own dataset is provided in this [```wiki```](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/wiki/How-to-Train-on-Your-Dataset). 
+
+[1]: https://ieeexplore.ieee.org/abstract/document/8822896
+[2]: http://ietdl.org/t/kmgztb
+[3]: https://ieeexplore.ieee.org/iel7/6992823/8822891/08822896.pdf
