@@ -10,9 +10,10 @@ The [```Complete Blood Count (CBC) Dataset```](https://github.com/MahmudulAlam/C
 - [x] TensorFlow-GPU==1.11.0
 - [x] OpenCV==3.4.2
 - [x] Cython==0.29.2
-- [x] Weights: [```download```](https://mega.nz/#F!2kVUnKjS!z15tM9WLfga3l1gCNSLNGw) the trained weights file for blood cell detection and put the ```weights``` folder in the working directory.
+- [x] Weights: [```download```](https://1drv.ms/u/s!AlXVRhh1rUKThlxTievX0X1CpXd0?e=9cKxYb) the trained weights file for blood cell detection and put the ```weights``` folder in the working directory.
 
-[![Download](https://img.shields.io/badge/download-weights-brightgreen.svg?longCache=true&style=flat)](https://mega.nz/#F!2kVUnKjS!z15tM9WLfga3l1gCNSLNGw)
+[![Download](https://img.shields.io/badge/download-weights-blue.svg?longCache=true&style=flat&logo=microsoft-onedrive)](https://1drv.ms/u/s!AlXVRhh1rUKThlxTievX0X1CpXd0?e=9cKxYb)
+[![Download](https://img.shields.io/badge/download-weights-ff160a.svg?longCache=true&style=flat&logo=mega)](https://mega.nz/#F!2kVUnKjS!z15tM9WLfga3l1gCNSLNGw)
 
 ## How to Run the Code
 A step by step guideline of how to run the blood cell detection code in your computer is provided in this [```wiki```](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/wiki/A-Step-by-Step-Guide-of-How-to-Run-the-Code).
