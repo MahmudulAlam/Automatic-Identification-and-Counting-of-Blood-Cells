@@ -15,16 +15,19 @@ The [```Complete Blood Count (CBC) Dataset```](https://github.com/MahmudulAlam/C
 [![Download](https://img.shields.io/badge/download-weights-blue.svg?longCache=true&style=flat&logo=microsoft-onedrive)](https://1drv.ms/u/s!AlXVRhh1rUKThlxTievX0X1CpXd0?e=9cKxYb)
 [![Download](https://img.shields.io/badge/download-weights-ff160a.svg?longCache=true&style=flat&logo=mega)](https://mega.nz/#F!2kVUnKjS!z15tM9WLfga3l1gCNSLNGw)
 
-## How to Run the Code
-A step by step guideline of how to run the blood cell detection code in your computer is provided in this [```wiki```](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/wiki/A-Step-by-Step-Guide-of-How-to-Run-the-Code).
+## How to Run the Code  :runner:
+A step by step guideline of how to run the blood cell detection code in your computer is provided in this **[`wiki`](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/wiki/A-Step-by-Step-Guide-of-How-to-Run-the-Code)**.
+
+## How to Train on Your Dataset  :bullettrain_side:
+A seven-step guideline of how to train on your own dataset is provided in this **[`wiki`](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/wiki/How-to-Train-on-Your-Dataset)**.
 
 ## Blood Cell Detection Output
 <p align="center">
   <img src="https://user-images.githubusercontent.com/37298971/44617785-17eb0980-a88b-11e8-9018-c84f8be5cefa.png" width="500">
 </p>
 
-## KNN and IOU Based Verfication
-In some cases, our model predicts the same platelet twice. To solve this problem we propose k-nearest neighbor (KNN) and intersection over union (IOU) based verification system where we find the nearest platelet of a platelet and calculate their overlap. We are allowing only 10% of overlap between two platelets. If the overlap is more than that then it will be a spurious prediction and we will ignore the prediction.
+## KNN and IOU Based Verification
+In some cases, our model predicts the same platelet twice. To solve this problem we propose k-nearest neighbor (KNN) and intersection over union (IOU) based verification system where we find the nearest platelet of a platelet and calculate their overlap. We are allowing only 10% overlap between two platelets. If the overlap is more than that then it will be a spurious prediction and we will ignore the prediction.
 
 | Before Verfication  | After Verification  |
 |:-:|:-:|
@@ -37,22 +40,9 @@ In some cases, our model predicts the same platelet twice. To solve this problem
 <p align="center"> <img src="https://user-images.githubusercontent.com/37298971/46260504-a268fd80-c508-11e8-9ef0-5230d00f47a3.jpg" width="380"> </p>
 -->
 
-## Prediction on High-Resolution Image (HRI)
-We have used our model to detect and count blood cells from high-resolution blood cell smear images. These test images are of the size of ```3872 x 2592``` way higher than the size of our trained images of ```640 x 480```. So, to match the cell size of our trained images we divide those images into grid cells and run prediction in each grid cell and then combine all the prediction results. 
-
-### Dividing Image into Grid/Patch
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/37298971/45962420-a39ab600-c042-11e8-975f-9b0a077f0e0f.jpg" width="640">
-</p>
-
-### Combined Output
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/37298971/45961699-055a2080-c041-11e8-95b0-1c8ac3c8875b.jpg" width="640">
-</p>
-
 ## Paper
 [![Paper](https://img.shields.io/badge/paper-IeeeXplore-blue.svg?longCache=true&style=flat)][1]
-[![Paper](https://img.shields.io/badge/paper-IETDigiLib-lightgray.svg?longCache=true&style=flat)][2]
+[![Paper](https://img.shields.io/badge/paper-IETDigiLib-830ceb.svg?longCache=true&style=flat)][2]
 
 For more detail explanation, please go through the pdf of the [```paper```][3]. Cite this paper as:
 ```
@@ -68,8 +58,18 @@ For more detail explanation, please go through the pdf of the [```paper```][3]. 
 }
 ```
 
-## How to Train on Your Dataset
-A seven-step guideline of how to train on your own dataset is provided in this [```wiki```](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/wiki/How-to-Train-on-Your-Dataset). 
+## Prediction on High-Resolution Image (HRI)
+We have used our model to detect and count blood cells from high-resolution blood cell smear images. These test images are of the size of ```3872 x 2592``` way higher than the size of our trained images of ```640 x 480```. So, to match the cell size of our trained images we divide those images into grid cells and run prediction in each grid cell and then combine all the prediction results. 
+
+<h3 align="center">Dividing Image into Grid/Patch</h3>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/37298971/45962420-a39ab600-c042-11e8-975f-9b0a077f0e0f.jpg" width="700">
+</p>
+
+<h3 align="center">Combined Output</h3>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/37298971/45961699-055a2080-c041-11e8-95b0-1c8ac3c8875b.jpg" width="700">
+</p>
 
 [1]: https://ieeexplore.ieee.org/abstract/document/8822896
 [2]: http://ietdl.org/t/kmgztb
