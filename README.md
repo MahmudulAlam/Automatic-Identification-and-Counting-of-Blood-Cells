@@ -33,18 +33,10 @@ In some cases, our model predicts the same platelet twice. To solve this problem
 |:-:|:-:|
 | <p align="center"> <img src="https://user-images.githubusercontent.com/37298971/46260207-b27ede00-c504-11e8-9d00-7d7be151ee5d.jpg"> </p>  | <p align="center"> <img src="https://user-images.githubusercontent.com/37298971/46260504-a268fd80-c508-11e8-9ef0-5230d00f47a3.jpg"> </p>  |
 
-<!--
-### Prediction Before Verfication 
-<p align="center"> <img src="https://user-images.githubusercontent.com/37298971/46260207-b27ede00-c504-11e8-9d00-7d7be151ee5d.jpg" width="380"> </p>
-### Prediction After Verfication
-<p align="center"> <img src="https://user-images.githubusercontent.com/37298971/46260504-a268fd80-c508-11e8-9ef0-5230d00f47a3.jpg" width="380"> </p>
--->
-
 ## Paper
-[![Paper](https://img.shields.io/badge/paper-IeeeXplore-blue.svg?longCache=true&style=flat)][1]
-[![Paper](https://img.shields.io/badge/paper-IETDigiLib-830ceb.svg?longCache=true&style=flat)][2]
+[![Paper](https://img.shields.io/badge/paper-IETDigiLib-830ceb.svg?longCache=true&style=flat)](http://ietdl.org/t/kmgztb)
 
-For more detail explanation, please go through the pdf of the [```paper```][3]. Cite this paper as:
+For more detail explanation, please go through the pdf of the [```paper```][1]. Cite this paper as:
 ```
 @article{alam2019machine,
   title={Machine learning approach of automatic identification and counting of blood cells},
@@ -71,6 +63,4 @@ We have used our model to detect and count blood cells from high-resolution bloo
   <img src="https://user-images.githubusercontent.com/37298971/45961699-055a2080-c041-11e8-95b0-1c8ac3c8875b.jpg" width="700">
 </p>
 
-[1]: https://ieeexplore.ieee.org/abstract/document/8822896
-[2]: http://ietdl.org/t/kmgztb
-[3]: https://ieeexplore.ieee.org/iel7/6992823/8822891/08822896.pdf
+[1]: http://ietdl.org/t/kmgztb
