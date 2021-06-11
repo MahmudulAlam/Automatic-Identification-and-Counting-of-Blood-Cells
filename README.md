@@ -34,7 +34,7 @@ In some cases, our model predicts the same platelet twice. To solve this problem
 | <p align="center"> <img src="https://user-images.githubusercontent.com/37298971/46260207-b27ede00-c504-11e8-9d00-7d7be151ee5d.jpg"> </p>  | <p align="center"> <img src="https://user-images.githubusercontent.com/37298971/46260504-a268fd80-c508-11e8-9ef0-5230d00f47a3.jpg"> </p>  |
 
 ## Paper
-[![Paper](https://img.shields.io/badge/paper-IETDigiLib-830ceb.svg?longCache=true&style=flat)](http://ietdl.org/t/kmgztb)
+[![Paper](https://img.shields.io/badge/paper-IETDigiLib-830ceb.svg?longCache=true&style=flat)](http://ietdl.org/t/kmgztb) [![Paper](https://img.shields.io/badge/paper-Wiley-282829.svg?longCache=true&style=flat)](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/htl.2018.5098)
 
 For more detail explanation, please go through the pdf of the [```paper```][1]. Cite this paper as:
 ```
@@ -63,4 +63,4 @@ We have used our model to detect and count blood cells from high-resolution bloo
   <img src="https://user-images.githubusercontent.com/37298971/45961699-055a2080-c041-11e8-95b0-1c8ac3c8875b.jpg" width="700">
 </p>
 
-[1]: http://ietdl.org/t/kmgztb
+[1]: https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/htl.2018.5098
