@@ -37,6 +37,9 @@ In some cases, our model predicts the same platelet twice. To solve this problem
 [![Paper](https://img.shields.io/badge/paper-IETDigiLib-830ceb.svg?longCache=true&style=flat)](http://ietdl.org/t/kmgztb) [![Paper](https://img.shields.io/badge/paper-Wiley-282829.svg?longCache=true&style=flat)](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/htl.2018.5098)
 
 For more detail explanation, please go through the pdf of the [```paper```][1]. Cite this paper as:
+
+[***```Machine learning approach of automatic identification and counting of blood cells```***](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/htl.2018.5098)
+
 ```
 @article{alam2019machine,
   title={Machine learning approach of automatic identification and counting of blood cells},
