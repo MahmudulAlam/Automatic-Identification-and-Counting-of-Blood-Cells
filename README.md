@@ -10,7 +10,8 @@
 The [```Complete Blood Count (CBC) Dataset```](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset) has been used for automatic identification and counting of blood cells. Download the dataset, unzip and put the ```Training```, ```Testing```, and ```Validation``` folder in the working directory.
 
 ## Requirements
-#### Python 3.6
+[![requirements](https://img.shields.io/badge/Python-3.6-3480eb.svg?longCache=true&style=flat&logo=python)](https://www.python.org/downloads/release/python-360/)
+
 - Tensorflow-GPU==2.2.0 (tested on both 2.1.0 and 2.2.0) ```conda install tensorflow-gpu```
 - TF-slim==1.1.0 ```pip install tf-slim==1.1.0```
 - Weights: [```download```](https://1drv.ms/u/s!AlXVRhh1rUKThlxTievX0X1CpXd0?e=9cKxYb) the trained weights file for blood cell detection and put the ```weights``` folder in the working directory.
@@ -19,10 +20,12 @@ The [```Complete Blood Count (CBC) Dataset```](https://github.com/MahmudulAlam/C
 [![Download](https://img.shields.io/badge/download-weights-ff160a.svg?longCache=true&style=flat&logo=mega)](https://mega.nz/#F!2kVUnKjS!z15tM9WLfga3l1gCNSLNGw)
 
 ## Update
-The code was originally written and developed with `TensorFlow v1.x`. The new updated version `v2.0` included `TensorFlow v2.x` support, tested on both TensorFlow `v2.1.0` and `v2.2.0`. You can download the previous version with `TensorFlow v1.x` support from **[`here`](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/releases/tag/v1.0)**.
+[![Paper](https://img.shields.io/badge/TensorFlow-2.x-f57418.svg?longCache=true&style=flat&logo=tensorflow)](https://www.tensorflow.org/install)
+
+The code was originally written and developed with `TensorFlow v1.x`. The new updated version `v2.0` included `TensorFlow v2.x` support, tested on both TensorFlow `v2.1.0` and `v2.2.0`. You can download the previous version from **[`here`](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/releases/tag/v1.0)**.
 
 ## How to Run the Code  :runner:
-A step-by-step guideline of how to run the blood cell detection code in your computer is provided in this **[`wiki`](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/wiki/A-Step-by-Step-Guide-of-How-to-Run-the-Code)**.
+To detect the blood cells, simply run the `detect.py` file in the terminal or using an IDE. A step-by-step guideline of how to run the blood cell detection code in your computer is provided in this **[`wiki`](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/wiki/A-Step-by-Step-Guide-of-How-to-Run-the-Code)**.
 If you have any trouble running the code and facing any error please feel free to create an **[`issue`](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/issues)** or **[`contact me`](https://mahmudulalam.github.io/#contact)**. 
 
 ## How to Train on Your Dataset  :bullettrain_side:
