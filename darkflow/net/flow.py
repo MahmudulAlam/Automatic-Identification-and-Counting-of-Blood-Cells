@@ -67,7 +67,7 @@ def train(self):
         if self.FLAGS.summary:
             self.writer.add_summary(fetched[2], step_now)
 
-        form = 'step {} - loss {} - moving ave loss {}'
+        form = 'step {0:>4d} - loss {1:>10.6f} - moving ave loss {2:>10.6f}'
         self.say(form.format(step_now, loss, loss_mva))
         profile += [(loss, loss_mva)]
 
