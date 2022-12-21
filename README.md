@@ -1,17 +1,17 @@
-## Automatic Identification and Counting of Blood Cells
+<h2 align="center">Automatic Identification and Counting of Blood Cells<h2>
 
 [![GitHub stars](https://img.shields.io/github/stars/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells)](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells)](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/network)
 [![GitHub issues](https://img.shields.io/github/issues/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells)](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/issues)
 [![Version](https://img.shields.io/badge/version-2.1-green.svg?longCache=true&style=flat)](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells)
 [![GitHub license](https://img.shields.io/github/license/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells)](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/blob/master/LICENSE)
-<img src="https://user-images.githubusercontent.com/37298971/123714340-f8d70800-d82a-11eb-9742-042a5d9334a1.png" width="28">
+<!--<img src="https://user-images.githubusercontent.com/37298971/123714340-f8d70800-d82a-11eb-9742-042a5d9334a1.png" width="28">-->
 
 ## Dataset
 
 The [```Complete Blood Count (CBC) Dataset```](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset) has
 been used for automatic identification and counting of blood cells. Download the dataset, unzip and put
-the ```Training```, ```Testing```, and ```Validation``` folder in the working directory.
+the ```Training```, ```Testing```, and ```Validation```folders in the working directory.
 
 ## Requirements
 
@@ -27,13 +27,14 @@ the ```Training```, ```Testing```, and ```Validation``` folder in the working di
 [![Download](https://img.shields.io/badge/download-weights-ff160a.svg?longCache=true&style=flat&logo=mega)](https://mega.nz/#F!2kVUnKjS!z15tM9WLfga3l1gCNSLNGw)
 
 ## Getting Started 
+
 1. Build the cython extension in place 
 ```python setup.py build_ext --inplace```
 2. Run detect.py 
 ```python detect.py```
-3. Train the model
-```python flow --model cfg/tiny-yolo-voc-3c.cfg --load bin/tiny-yolo-voc.weights --train --gpu .7 --annotation dataset/Training/Annotations --dataset dataset/Training/Images --lr 1e-3 --epoch 100```
+
 ## Update
+The ```darkflow.cython_utils.cy_yolo_findboxes``` problem has been fixed. Make sure to build the cython extension in place before running the code. 
 
 [![Paper](https://img.shields.io/badge/TensorFlow-2.x-f57418.svg?longCache=true&style=flat&logo=tensorflow)](https://www.tensorflow.org/install)
 
@@ -45,11 +46,11 @@ from **[`here`](https://github.com/MahmudulAlam/Automatic-Identification-and-Cou
 
 ## How to Run the Code  :runner:
 
-To detect the blood cells, simply run the `detect.py` file in the terminal or using an IDE. A step-by-step guideline of
+To detect the blood cells, simply run the `detect.py` file in the terminal or use an IDE. A step-by-step guideline of
 how to run the blood cell detection code in your computer is provided in
 this **[`wiki`](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/wiki/A-Step-by-Step-Guide-of-How-to-Run-the-Code)**
 .
-If you have any trouble running the code and facing any error please feel free to create
+If you have any trouble running the code and facing any errors please feel free to create
 an **[`issue`](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/issues)**
 or **[`contact me`](https://mahmudulalam.github.io/#contact)**.
 
@@ -69,7 +70,7 @@ paper as:
 
 [***```Machine learning approach of automatic identification and counting of blood cells```***](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/htl.2018.5098)
 
-```
+```bibtex
 @article{alam2019machine,
   title={Machine learning approach of automatic identification and counting of blood cells},
   author={Alam, Mohammad Mahmudul and Islam, Mohammad Tariqul},
@@ -92,14 +93,12 @@ paper as:
 
 In some cases, our model predicts the same platelet twice. To solve this problem we propose a k-nearest neighbor (KNN)
 and intersection over union (IOU) based verification system where we find the nearest platelet of a selected platelet
-and calculate their overlap. We are allowing only 10% overlap between two platelets. If the overlap is more than that
+and calculate their overlap. We are allowing only a 10% overlap between two platelets. If the overlap is more than that
 then it will be a spurious prediction and we will ignore the prediction.
 
-| Before Verification | After Verification |
+| Before Verification  | After Verification  |
 |:-:|:-:|
-| <p align="center"> <img src="https://user-images.githubusercontent.com/37298971/46260207-b27ede00-c504-11e8-9d00-7d7be151ee5d.jpg"> </p>
-| <p align="center"> <img src="https://user-images.githubusercontent.com/37298971/46260504-a268fd80-c508-11e8-9ef0-5230d00f47a3.jpg"> </p>
-|
+| <p align="center"> <img src="https://user-images.githubusercontent.com/37298971/46260207-b27ede00-c504-11e8-9d00-7d7be151ee5d.jpg"> </p>  | <p align="center"> <img src="https://user-images.githubusercontent.com/37298971/46260504-a268fd80-c508-11e8-9ef0-5230d00f47a3.jpg">  |
 
 ## Prediction on High-Resolution Image (HRI)
 
