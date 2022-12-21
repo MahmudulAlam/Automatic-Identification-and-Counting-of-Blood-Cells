@@ -1,6 +1,6 @@
+from .defaults import argHandler  # Import the default arguments
 import os
 from .net.build import TFNet
-from .defaults import argHandler
 
 
 def cliHandler(args):
@@ -12,10 +12,9 @@ def cliHandler(args):
     def _get_dir(dirs):
         for d in dirs:
             this = os.path.abspath(os.path.join(os.path.curdir, d))
-            if not os.path.exists(this):
-                os.makedirs(this)
+            if not os.path.exists(this): os.makedirs(this)
 
-    requiredDirectories = [FLAGS.binary, FLAGS.backup]
+    requiredDirectories = [FLAGS.imgdir, FLAGS.binary, FLAGS.backup, os.path.join(FLAGS.imgdir, 'out')]
     if FLAGS.summary:
         requiredDirectories.append(FLAGS.summary)
 
@@ -34,14 +33,14 @@ def cliHandler(args):
         exit('Demo stopped, exit.')
 
     if FLAGS.train:
-        print('Enter training ...')
+        print('Enter training ...');
         tfnet.train()
         if not FLAGS.savepb:
             exit('Training finished, exit.')
 
     if FLAGS.savepb:
         print('Rebuild a constant version ...')
-        tfnet.savepb()
+        tfnet.savepb();
         exit('Done')
 
     tfnet.predict()

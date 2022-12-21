@@ -7,5 +7,3 @@ from utils.box import BoundBox
 
 
 cdef NMS(float[:, ::1] , float[:, ::1] )
-
-

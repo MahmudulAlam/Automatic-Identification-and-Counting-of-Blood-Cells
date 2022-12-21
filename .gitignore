@@ -3,3 +3,5 @@ __pycache__/
 bin/
 dataset/
 weights/
+sample_img/
+build/

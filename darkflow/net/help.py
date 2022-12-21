@@ -9,8 +9,6 @@ import sys
 import cv2
 import os
 
-tf = tf.compat.v1
-
 old_graph_msg = 'Resolving old graph def {} (no guarantee)'
 
 

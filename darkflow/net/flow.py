@@ -5,8 +5,6 @@ import tensorflow as tf
 import pickle
 from multiprocessing.pool import ThreadPool
 
-tf = tf.compat.v1
-
 train_stats = (
     'Training statistics: \n'
     '\tLearning rate : {}\n'
@@ -67,7 +65,7 @@ def train(self):
         if self.FLAGS.summary:
             self.writer.add_summary(fetched[2], step_now)
 
-        form = 'step {0:>4d} - loss {1:>10.6f} - moving ave loss {2:>10.6f}'
+        form = 'step {} - loss {} - moving ave loss {}'
         self.say(form.format(step_now, loss, loss_mva))
         profile += [(loss, loss_mva)]
 

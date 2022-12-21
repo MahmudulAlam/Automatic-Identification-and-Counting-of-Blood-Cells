@@ -5,6 +5,7 @@ import numpy as np
 from os.path import basename
 
 tf = tf.compat.v1
+tf.disable_v2_behavior()
 
 
 class loader(object):

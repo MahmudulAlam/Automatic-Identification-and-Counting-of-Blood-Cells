@@ -2,6 +2,7 @@ import tensorflow as tf
 import numpy as np
 
 tf = tf.compat.v1
+tf.disable_v2_behavior()
 
 FORM = '{:>6} | {:>6} | {:<32} | {}'
 FORM_ = '{}+{}+{}+{}'
